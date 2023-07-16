@@ -56,15 +56,11 @@ $ python eval.py
 
 Weight files are made available in the repository under the `checkpoints` directory. It generates the following output after 5000 epochs of training with batch size 8192 while using only 10% of the available pixels in the image during training phase.
 
-<img src="https://github.com/dalmia/siren/blob/master/images/celtic_spiral_knot.jpg?raw=true" height=100% width=100%>
+<img src="https://github.com/QinghongShao-sqh/Siren_Study/blob/master/plant_result.jpg?raw=true" height=100% width=100%>
 
 # Tests
 Tests are written using `unittest`. You can run any script under the `tests` folder.
 
-
-### My results
-
-[Siren_Study/plant_result.jpg at master · QinghongShao-sqh/Siren_Study (github.com)](https://github.com/QinghongShao-sqh/Siren_Study/blob/master/plant_result.jpg)
 
 
 
