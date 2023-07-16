@@ -53,6 +53,10 @@ class NeRF(nn.Module):
             nn.ReLU(True)
         )
 
+        self.density = nn.Sequential(
+            SineLayer(W // 2, 1)
+        )
+
         self.rgb = nn.Sequential(
             SineLayer(W // 2, 3)
         )
@@ -66,8 +70,9 @@ class NeRF(nn.Module):
         dir_encoding_input = torch.cat([xyz_encoding_final, input_dir], -1)
         dir_encoding = self.dir_encoding(dir_encoding_input)
 
+        density = self.density(dir_encoding)
         rgb = self.rgb(dir_encoding)
-        return rgb
+        return density, rgb
     """
     NeRF(
   (xyz_encoding): Sequential(
