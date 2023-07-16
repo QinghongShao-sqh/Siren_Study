@@ -1,4 +1,4 @@
-# Sinusoidal Representation Networks (SIREN) With Some  extral experiment
+# Sinusoidal Representation Networks (SIREN) With Some  extral experiments
 
 Unofficial PyTorch implementation of Sinusodial Representation networks (SIREN) from the paper [Implicit Neural Representations with Periodic Activation Functions](https://arxiv.org/abs/2006.09661). This repository is a PyTorch port of [this](https://github.com/titu1994/tf_SIREN) excellent TF 2.0 implementation of the same.
 
@@ -70,7 +70,13 @@ Tests are written using `unittest`. You can run any script under the `tests` fol
 ### If you have any questions about my project, please leave a comment!
 ### If my project can help you, I hope you can give me a star!
 ##The platform where I often move
-### Bilibili(To update my paper sharing video) [出门吃三碗饭的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/38035003?spm_id_from=333.1007.0.0)
-### CSDN (To update my blog)[(644条消息) 出门吃三碗饭的博客_CSDN博客-python,大学学习,复习笔记领域博主](https://blog.csdn.net/qq_40514113?spm=1000.2115.3001.5343)
-### ZhiHu(To update my thesis notes and to receive counseling)[(2 封私信 / 50 条消息) 出门吃三碗饭 - 知乎 (zhihu.com)](https://www.zhihu.com/people/olkex)
-### 公众号(need wechat，and You can buy some wacky items)  AI知识物语https://mp.weixin.qq.com/s/SL5QGtB1svkG_ac11OrR0Q
+### Bilibili(To update my paper sharing video) 
+[出门吃三碗饭的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/38035003?spm_id_from=333.1007.0.0)
+
+### CSDN (To update my blog)
+[出门吃三碗饭的博客_CSDN博客-3D视觉，三维重建,复习笔记领域博主](https://blog.csdn.net/qq_40514113?spm=1000.2115.3001.5343)
+
+### ZhiHu(To update my thesis notes and to receive counseling)
+[ 出门吃三碗饭 - 知乎 (zhihu.com)](https://www.zhihu.com/people/olkex)
+### 公众号(need wechat，and You can buy some wacky items)  
+AI知识物语https://mp.weixin.qq.com/s/SL5QGtB1svkG_ac11OrR0Q
